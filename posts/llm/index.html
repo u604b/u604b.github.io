@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html><head>
-	<meta name="generator" content="Hugo 0.143.0">
 	<meta charset="utf-8" />
 	<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
 	<meta name=viewport content="width=device-width,initial-scale=1">
@@ -73,8 +71,9 @@
 	
 
 </head>
-<body>
-		<div class="content"><header>
+
+    <body>
+        <div class="content"><header>
 	<div class="main">
 		<a href="https://ao2233.github.io/">帰宅部</a>
 	</div>
@@ -92,17 +91,17 @@
 	
 		
 	</nav>
-</header><main class="list">
-				<div class="site-description"><p class="site-description">さらば、すべてのエヴァンゲリオン</p></div>
-
-				
-				
-				
-
-				<article>
-				<h1 class="title">Large Language Model 那些事</a></h1>
-				<time>Feb 10, 2025 <span class="draft-label">DRAFT</span> </time> 
-				<h1 id="前言">前言</h1>
+</header>
+        
+<main>
+	
+	<div class="title">
+		<h1 class="title">Large Language Model 那些事</h1>
+		<div class="meta">Posted on Feb 10, 2025 <span class="draft-label">DRAFT</span> </div>
+	</div>
+	<section class="body">
+	<article>
+		<h1 id="前言">前言</h1>
 <p>最近，<code>LLM</code>炒的甚是火热，于是也来写一篇<code>blog</code>记录下。训练搞不了，只能做做<code>RAG</code>&amp;<code>Prompt Pipeline</code>这种下游工程了，再就是结合<code>API</code>解决业务</p>
 <div class="collapsible">
   <div class="bar">未完待续</div>
@@ -183,20 +182,10 @@ n=num(LLM(task)) \\
 rate_{task} = \prod_{i}^n rate_{planer_{i}} * rate_{action_{i}}
 $$<p>这成功率只能说是感动人心，问题还是硬件最大，其次是模型。尤其是当<code>Reasoning Model</code>出来之后，也许这种<code>分解task</code>的方法，比直接代码生成的方案要好</p>
 
-				</article>
-				
-
-<ul class="pagination">
-	<span class="page-item page-prev">
-	
-	</span>
-	<span class="page-item page-next">
-	
-    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
-	
-	</span>
-</ul>
+	</article>
+	</section>
 </main>
+
 <footer class="footer">
 <hr>
 <a class="soc" href="https://github.com/AO2233" title="GitHub"><i data-feather="github"></i></a>
@@ -218,6 +207,6 @@ $$<p>这成功率只能说是感动人心，问题还是硬件最大，其次是
             margin: 0, 
       });
 </script></div>
-		
-	</body>
+    </body>
+    
 </html>
